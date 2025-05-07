@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Event Handling & Interactive Elements</title>
+  <link rel="stylesheet" href="style.css"> <!-- Link to CSS -->
+</head>
+<body>
+  
+  <!-- Event Handling Section -->
+  <h1>Event Handling 🎈</h1>
+  
+  <!-- Button Click -->
+  <button id="clickButton">Click Me</button>
+
+  <!-- Hover Effect -->
+  <div id="hoverDiv"></div>
+
+  <!-- Keypress Detection -->
+  <input type="text" id="inputField" placeholder="Press a key">
+
+  <!-- Double-click and Long Press -->
+  <button id="doubleClickButton">Double Click Me</button>
+  <button id="longPressButton">Long Press Me</button>
+
+  <!-- Interactive Elements Section -->
+  <h1>Interactive Elements 🎮</h1>
+
+  <!-- Button that Changes Text or Color -->
+  <button id="changeButton">Click to Change</button>
+
+  <!-- Image Gallery -->
+  <div id="gallery">
+    <img src="image1.jpg" class="slide" style="display:block;">
+    <img src="image2.jpg" class="slide">
+    <img src="image3.jpg" class="slide">
+  </div>
+  <button id="nextBtn">Next</button>
+
+  <!-- Tabs -->
+  <div class="tabs">
+    <button class="tab" onclick="showTab(0)">Tab 1</button>
+    <button class="tab" onclick="showTab(1)">Tab 2</button>
+    <button class="tab" onclick="showTab(2)">Tab 3</button>
+  </div>
+  <div class="tab-content">
+    <div class="content" id="content0">Content for Tab 1</div>
+    <div class="content" id="content1" style="display:none;">Content for Tab 2</div>
+    <div class="content" id="content2" style="display:none;">Content for Tab 3</div>
+  </div>
+
+  <!-- Form Validation Section -->
+  <h1>Form Validation 📋✅</h1>
+  
+  <!-- Required Field Check -->
+  <form id="myForm">
+    <input type="text" id="username" required>
+    <button type="submit">Submit</button>
+  </form>
+
+  <!-- Email Format Validation -->
+  <input type="email" id="email" required>
+
+  <!-- Password Validation -->
+  <input type="password" id="password" required>
+
+  <!-- Bonus: Animation -->
+  <button id="animateBtn">Click Me for Animation!</button>
+  <div id="box"></div>
+
+  <!-- Link to JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+</html>

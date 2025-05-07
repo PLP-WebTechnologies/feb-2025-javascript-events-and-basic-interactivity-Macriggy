@@ -1,0 +1,77 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  h1 {
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  /* Button Styling */
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Hover Effect */
+  #hoverDiv {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 20px auto;
+  }
+  
+  /* Image Gallery */
+  #gallery {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  #gallery img {
+    width: 200px;
+    height: auto;
+    display: none; /* Hidden by default */
+    transition: opacity 0.5s ease;
+  }
+  
+  #gallery img:first-child {
+    display: block; /* Show the first image */
+  }
+  
+  .tab-content {
+    margin-top: 20px;
+  }
+  
+  .content {
+    display: none;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+  }
+  
+  /* Animation for the Box */
+  #box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 20px auto;
+    transition: all 0.5s ease-in-out;
+  }
+  
